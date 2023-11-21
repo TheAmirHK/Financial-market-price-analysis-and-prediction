@@ -1,16 +1,1 @@
-import pandas_datareader.data as web
-import datetime
-from datetime import datetime, date, timedelta
-import yfinance as yf
-yf.pdr_override() # <== that's all it takes :-)
-from pandas_datareader import data as pdr
-import pandas as pd 
-pd.set_option('display.max_columns', None)
-pd.set_option('display.max_rows', None)
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
 
-# For warnings suppression
-import warnings
-warnings.filterwarnings("ignore")
